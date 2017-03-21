@@ -14,6 +14,9 @@ h1, h2 {
   text-align: center;
 }
 
+p {
+
+}
 
 h2.intro {
   font-family: cursive;
@@ -25,3 +28,9 @@ p.intro {
 img.intro{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
 @-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.highlighted {
+  background-color: yellow;
+  border: dotted 5px;
+  cursor: pointer;
+}
